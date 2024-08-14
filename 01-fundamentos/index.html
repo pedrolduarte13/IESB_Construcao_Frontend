@@ -1,12 +1,131 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>HTML e CSS</title>
+
+    <!--CSS NO HEAD-->
+    <style>
+        body{
+            padding-bottom: 50px;
+        }
+    </style>
 </head>
+
 <body>
+    <!--COMENTARIO EM HTML-->
+    <!--TITULOS-->
+    <h1>TITULO MAIS IMPORTANTE DA PAGINA</h1>
+    <h2>TESTE</h2>
+    <h3>TESTE</h3>
+    <h4>TESTE</h4>
+    <h5>TESTE</h5>
+    <h6>TESTE</h6>
+    <hr>
     
+    <!--PARAGRAFOS-->
+    <p>TEXTO QUALQUER
+    <br>    <!--QUEBRA DE LINHA-->       
+        TESTE
+    </p>
+    <hr>
+
+    <!--LINKS-->
+    <a href="https://youtube.com.br">YouTube</a>
+    <a href="https://youtube.com.br" target="_blank">YouTube</a>  
+    <hr>
+
+    <!--QUEBRAS DE LINHA-->
+    <h2>Titulo</h2>
+    <p>TEXTO <br> QUALQUER</p>
+    <hr>
+    <h2>TITULO</h2>
+    <p>TEXTO QUALQUER</p>
+    <hr>
+
+    <!--IMAGEM-->
+    <!--IMAGEM QUE VEIO DE UM LINK EXTERNO-->
+    <img width="150px" height="150px" src="https://th.bing.com/th/id/OIP.F3p22GBJTn5j2FBMdL0EfQAAAA?w=240&h=210&rs=1&pid=ImgDetMain" alt="TESTE">
+    <hr>
+    
+    <!--iMAGEM DENTRO DO PROJETO-->
+    <img width="150px" height="150px" src="./assets/logo.jfif" alt="TESTELOGO">
+    <hr>
+
+    <!--FORMULARIO-->
+        <forms>
+            <h2>FORMULARIO</h2>
+            <label for="">NOME</label>
+            <input type="text">
+            <br>
+            <label for="">CPF</label>
+            <input type="text" placeholder="000.000.000.00">
+            <br>
+            <label for="">EMAIL </label>
+            <input type="email" placeholder="EXEMPLO@EMAIL.COM">
+            <br>
+            <label for="">TELEFONE</label>
+            <input type="tel" placeholder="(00) 00000-0000">
+            <br>
+            <button type="submit">ENVIAR</button>
+            <button type="reset">LIMPAR</button>
+            <hr>
+        </forms>
+
+        <!--LISTAS-->
+        <ul> <!--LISTA NÃO ORDERNADA-->
+            <li>TESTE</li>
+            <li>TESTE</li>
+            <li>TESTE</li>
+            <li>TESTE</li>
+        </ul>
+
+        <ol> <!--LISTA ORDENADA-->
+            <li>TESTE</li>
+            <li>TESTE</li>
+            <li>TESTE</li>
+            <li>TESTE</li>
+        </ol>
+        <hr>
+
+        <!--TABELAS-->
+        <table border="2">
+            <thead>
+                <tr>
+                    <th>NOME:</th>
+                    <th>NUMERO:</th>
+                    <th>EMAIL:</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>MARIA</td>
+                    <td>(00) 0000000000</td>
+                    <td>MARIA@EMAIL.COM</td>
+                </tr>
+                <tr>
+                    <td>MARIA</td>
+                    <td>(00) 0000000000</td>
+                    <td>MARIA@EMAIL.COM</td>
+                </tr>
+                <tr>
+                    <td>MARIA</td>
+                    <td>(00) 0000000000</td>
+                    <td>MARIA@EMAIL.COM</td>
+                </tr>
+            </tbody>
+
+
+
+        </table>
+
+
+
+
+
+
 </body>
-</html>
+
+</html>   
