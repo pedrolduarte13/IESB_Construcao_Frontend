@@ -8,46 +8,57 @@
 </head>
 <body>
  <forms>
-        <h2>FORMULARIO</h2>
-        <label for="">NOME</label>
+        <h2>Cadastro de Usuário</h2>
+        <label>Nome:</label>
         <input type="text">
         <br>
         <br>
-        <label for="">TELEFONE</label>
+        <label for="">Telefone:</label>
         <input type="text" placeholder="(00) 00000-0000">
         <br>
         <br>
-        <label for="">EMAIL </label>
+        <label for="">Email:</label>
         <input type="email" placeholder="EXEMPLO@EMAIL.COM">
         <br>
         <br>
-        <label for="">SENHA</label>
-        <input type="tel" placeholder="******">
-        <br>
-        
-        <br>
-        <label for="button">SEXO</label>
-        <input type="checkbox">Masculino
-        <input type="checkbox">Feminino
+        <label for="">Senha:</label>
+        <input type="password" placeholder="******">
         <br>
         <br>
-        <label for="button">asada</label>
-        <input type="checkbox">Feminino
+        <label for="button">Sexo:</label>
+        <input type="radio">Masculino
+        <input type="radio">Feminino
+        <br>  
+        <br>     
+        <form action="" id="form-chave">
+            <label for="uf">UF</label>
+            <select name="uf" id="uf">
+                <option [value]="uf" *ngFor="let uf of ufs" >DF</option>
+                <option [value]="uf" *ngFor="let uf of ufs" >SC</option>
+                <option [value]="uf" *ngFor="let uf of ufs" >RJ</option>
+                <option [value]="uf" *ngFor="let uf of ufs" >SP</option>
+            </select>
+        </form>
         <br>
-        <br>            
-        
-        
-
-
-
-
-        <form style="display: contents;">asdas</form>
+        Hobbies
+        <fieldset style="border-width: 1px; width: 550px; height: 15px">
+        <div >
+        <input type="checkbox">Futebol
+        <input type="checkbox">Xadrez
+        <input type="checkbox">Esportes
+        <input type="checkbox">Musica
+        <input type="checkbox">Cinema
+        <input type="checkbox">Leitura
+        </div>
+    </fieldset>
+        <br> 
+        Observação: <textarea style="width: 250px; height: 100px;"></textarea>
         <br>
         <br>
-        <button type="submit">VOLTAR</button>
-        <button type="menu">LIMPAR</button>
-        <button type="reset">SALVAR</button>
-        <hr>
+        <button type="menu">Voltar</button>
+        <button type="reset">Limpar</button>
+        <button type="submit">Salvar</button>
+        <br>
     </forms>
 </body>
 </html>
