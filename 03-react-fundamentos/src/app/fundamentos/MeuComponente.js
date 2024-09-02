@@ -1,14 +1,11 @@
-import MeuComponente from './MeuComponente'
-
 export default function MeuComponente() {
-    
-    
-    return {
+
+
+    return (
         <>
-
-
+            <h2>Meu Componente</h2>
+            <p>O texto do meu componente</p>
         </>
-    }
-
+    )
 
 }
