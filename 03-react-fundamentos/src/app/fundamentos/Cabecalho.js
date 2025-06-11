@@ -1,16 +1,16 @@
-
+import style from './fundamentos.module.css'
 
 export default function Cabecalho(props) {
 
-    props.titulo
-    props.descricao0
+    const { titulo, descricao } = props
 
-  return (
+    return (
         <>
-
-            <h1>Título da Página</h1>
-            <p>Descrição da Página</p>
-
+            <h1 style={{}} className={style.titulo}>{titulo}</h1>
+            <p className={style.titulo}>{descricao}</p>
+            <hr />
         </>
-  )
+    )
 }
+
+

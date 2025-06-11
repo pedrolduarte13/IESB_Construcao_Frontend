@@ -10,7 +10,7 @@ export default function NumeroMaior(props){
             return props.numB
         }
     }
- 
+
     return (
         <>
             <h2>Componente Número Maior</h2>

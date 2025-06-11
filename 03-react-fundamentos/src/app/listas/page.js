@@ -13,6 +13,7 @@ export default function page() {
         'https://picsum.photos/700?random=3'
     ]
 
+
     return (
         <Pagina titulo="Listas">
 
@@ -63,7 +64,12 @@ export default function page() {
                         )
                     })}
                 </Carousel>
+
+
             </Row>
+
+
+
 
         </Pagina>
     )

@@ -1,12 +1,17 @@
 
+
 export default function ImagemAleatoria() {
-  
-  const NumeroAleatorio = Math.random()
-  
-  return (
-<>
-<h3>Imagem Aleatoria</h3>
-<img src="https://picsum.photos/200"/>
-</>
-  )
+
+    const numeroAleatorio = Math.round(Math.random() * 200) + 1
+
+    const urlImagem = `https://picsum.photos/200?random=${numeroAleatorio}`
+
+    console.log(urlImagem)
+
+    return (
+        <>
+            <h3>Imagem Aleatória</h3>
+            <img src={urlImagem} />
+        </>
+    )
 }

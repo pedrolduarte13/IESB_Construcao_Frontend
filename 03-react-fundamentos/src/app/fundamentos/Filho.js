@@ -1,8 +1,10 @@
 
+
 export default function Filho(props) {
-  return (
-    <>
-    <div>Filho {nome} {SobreNome}</div>
-    </>
-  )
+
+    const { nome, sobreNome } = props
+
+    return (
+        <p>{nome} {sobreNome}</p>
+    )
 }
